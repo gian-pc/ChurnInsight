@@ -1,0 +1,10 @@
+# --- API & Web Server ---
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
+
+# --- Data Science & Machine Learning ---
+numpy            # Operaciones matemáticas rápidas
+pandas           # Manipulación de datos (DataFrames)
+scikit-learn     # Aquí está el Random Forest
+joblib           # Para guardar/cargar el modelo (.pkl)
